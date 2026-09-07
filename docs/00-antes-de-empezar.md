@@ -154,6 +154,35 @@ Y dos reglas de oro que te van a acompañar todo el proyecto:
 
 ---
 
+## 6. Guarda tu trabajo desde el primer día
+
+Este proyecto vive en GitHub y **tú tienes tu propia rama**, llamada `desarrollo`. Ahí subes
+lo que vas haciendo, aunque esté a medias y aunque no funcione todavía.
+
+```bash
+git switch desarrollo     # colócate en tu rama (compruébalo con git branch)
+```
+
+Y al acabar cada rato de trabajo, siempre lo mismo:
+
+```bash
+git add .
+git commit -m "Sesión 1: enums de tamaño y tipo de leche"
+git push
+```
+
+Cuando termines una sesión entera y esté revisada, se lleva de `desarrollo` a `main` con un
+*pull request*.
+
+**No lo dejes para el final.** Un proyecto sin historial es un proyecto que, el día que
+rompas algo, no puedes recuperar. Y el historial de commits acaba siendo una de las cosas
+más enseñables que vas a sacar de aquí.
+
+👉 Todo explicado, con la chuleta de comandos y cómo hacerlo desde IntelliJ sin escribir
+nada: **[GIT.md](GIT.md)**.
+
+---
+
 ## ✅ Checklist de la sesión 0
 
 - [ ] Has leído las reglas del juego y las entiendes.
@@ -161,6 +190,9 @@ Y dos reglas de oro que te van a acompañar todo el proyecto:
 - [ ] Sabes en qué carpeta va tu código y en cuál no.
 - [ ] Entiendes por qué la vista no conoce tus clases.
 - [ ] Has abierto [NOMBRES.md](NOMBRES.md) y lo tienes a mano.
+- [ ] Estás en la rama `desarrollo` y has leído [GIT.md](GIT.md).
+- [ ] Has hecho tu primer `commit` y `push`, aunque sea de una tontería, para comprobar
+      que tienes permisos y que funciona.
 
 ---
 

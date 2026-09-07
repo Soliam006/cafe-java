@@ -43,6 +43,7 @@ Documentos de consulta, para tener abiertos mientras trabajas:
 - **[NOMBRES.md](docs/NOMBRES.md)** — tu libreta. Los nombres los eliges tú; apúntalos ahí según los decidas.
 - **[API-VISTA.md](docs/API-VISTA.md)** — todo lo que la vista sabe dibujar y cómo se llama.
 - **[BUENAS-PRACTICAS.md](docs/BUENAS-PRACTICAS.md)** — chuleta de estilo y de errores típicos.
+- **[GIT.md](docs/GIT.md)** — cómo subir tu trabajo, rama a rama, y cómo hacer un *pull request*.
 
 ---
 
@@ -50,20 +51,21 @@ Documentos de consulta, para tener abiertos mientras trabajas:
 
 **Requisitos:** IntelliJ IDEA (la Community Edition vale) y un **JDK 17 o superior**.
 
-Con Git:
-
 ```bash
 git clone https://github.com/Soliam006/cafe-java.git
+cd cafe-java
+git switch desarrollo
 ```
 
-O sin Git: botón verde **Code → Download ZIP**, y descomprimir donde quieras.
+Ese `git switch desarrollo` no te lo saltes: **`desarrollo` es tu rama**, donde vas
+subiendo lo que haces. `main` es la versión revisada y ahí no se trabaja directamente.
 
 Luego, en IntelliJ: *File → Open* y elige la carpeta del proyecto. Si te avisa de que no
 encuentra el SDK, ve a *File → Project Structure → Project* y selecciona tu JDK.
 
-> ⚠️ Si te lo has bajado como ZIP, sácalo de la carpeta de Descargas antes de trabajar. Y
-> si vas a usar Git, **haz commits al acabar cada sesión**: es buena costumbre y te salva
-> el día que rompas algo.
+> 📘 **Si Git te suena a chino, empieza por [GIT.md](docs/GIT.md).** Está escrito para este
+> proyecto y con lo justo: seis comandos y un flujo de trabajo. Aprender Git es la mitad de
+> lo que se aprende aquí, y no te lo van a explicar en clase.
 
 ---
 
