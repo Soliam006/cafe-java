@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Demo de la vista" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="cafeteria.vista.DemoVista" />
+    <module name="clases_cafeteria" />
+    <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
