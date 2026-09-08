@@ -96,7 +96,6 @@ costumbre**: es lo que evita el 90 % de los líos.
 
 ```bash
 git status
-
 ```
 
 Te dice qué ficheros has cambiado, cuáles son nuevos y cuáles están listos para guardar.
