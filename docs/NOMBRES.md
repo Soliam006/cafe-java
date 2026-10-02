@@ -11,21 +11,23 @@ final: así son los proyectos.
 
 ## Sesión 1 — Productos
 
-| Qué es | Cómo lo he llamado |
-|---|-------------|
-| Enum de tamaños |             |
-| ↳ sus valores |             |
-| Enum de tipos de leche |             |
-| ↳ sus valores |             |
-| Enum de categorías |             |
-| ↳ sus valores |             |
-| **Clase abstracta de producto** |             |
-| ↳ método abstracto: calcular precio |             |
-| ↳ método abstracto: describirse |             |
-| Hija: bebida caliente |             |
-| Hija: bebida fría |             |
-| Hija: repostería |             |
-| Hija: salado (opcional) |             |
+| Qué es                              | Cómo lo he llamado                                          |
+|-------------------------------------|-------------------------------------------------------------|
+| Enum de tamaños                     | Size                                                        |
+| ↳ sus valores                       | Little, Medium, Large                                       |
+| Enum de tipos de leche              | Milk                                                        |
+| ↳ sus valores                       | Entera, Desnatada, Almendra, Semidesnatada, Coco, Soja      |
+| Enum de comida                      | Eat                                                         |
+| ↳ sus valores                       | Ensalada, Sandwich, Hamburgesa, Pizza, Pasta, Fruta, Yogurt |
+| Enum de categorías                  | Category                                                    |
+| ↳ sus valores                       | Cafe, Bebida fria, Reposteria, Salado, Snack, Otro          |
+| **Clase abstracta de producto**     |                                                             |
+| ↳ método abstracto: calcular precio | public abstract double calcularPrecioFinal();               |
+| ↳ método abstracto: describirse     | - - -                                                       |
+| Hija: bebida caliente               | HotDrink                                                    |
+| Hija: bebida fría                   | IceDrink                                                    |
+| Hija: repostería                    | Confectionery                                               |
+| Hija: salado (opcional)             | Meal                                                        |
 
 ---
 

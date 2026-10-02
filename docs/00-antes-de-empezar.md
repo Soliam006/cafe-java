@@ -61,7 +61,7 @@ src/
 
 Porque **separar responsabilidades** es la idea de fondo de toda la asignatura. Fíjate:
 
-- Una clase `Producto` sabe **cuánto cuesta un café con leche grande**. No sabe nada de
+- Una clase `Product` sabe **cuánto cuesta un café con leche grande**. No sabe nada de
   colores ni de tablas.
 - La clase `Escena` sabe **dibujar una tabla bonita**. No sabe nada de cafés.
 - La clase que lleva la partida coge los datos del modelo y se los pasa a la vista.
