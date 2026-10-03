@@ -1,6 +1,6 @@
 package cafeteria.modelo;
 
-public class HotDrink {
+public class HotDrink implements Extras{
     private String cupSize;
     private String milkType;
     private boolean extraShot;
@@ -48,4 +48,23 @@ public class HotDrink {
         return price;
     }
 
+    @Override
+    public void extra(String extras) {
+
+    }
+
+    @Override
+    public boolean quitExtra(String extras) {
+        return false;
+    }
+
+    @Override
+    public Size getSize() {
+        return null;
+    }
+
+    @Override
+    public double calcularExtra() {
+        return 0;
+    }
 }
